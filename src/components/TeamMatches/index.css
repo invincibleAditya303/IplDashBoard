@@ -1,0 +1,85 @@
+.KKR {
+  background-image: linear-gradient(#5755a7, #0f172a);
+}
+
+.CSK {
+  background-image: linear-gradient(#f7db00, #13418b);
+}
+
+.MI {
+  background-image: linear-gradient(#13418b, #4f5db0);
+}
+
+.SH {
+  background-image: linear-gradient(#f26d22, #0f172a);
+}
+
+.DC {
+  background-image: linear-gradient(#5755a7, #13418b);
+}
+
+.KXP {
+  background-image: linear-gradient(#a4261d, #d91c1f);
+}
+
+.RR {
+  background-image: linear-gradient(#da237b, #ffffff33);
+}
+
+.RCB {
+  background-image: linear-gradient(#d91c1f, #a4261d);
+}
+
+.team-matches-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.spinner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.team-banner-img {
+  height: 40vh;
+  width: 90%;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.opponent-matches-list-container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.latest-match-heading {
+  color: #ffffff;
+  font-size: 26px;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  padding-left: 5%;
+  align-self: flex-start;
+}
+
+@media (max-width: 767px) {
+  .team-banner-img {
+    height: 25vh;
+  }
+
+  .latest-match-heading {
+    font-size: 18px;
+  }
+
+  .opponent-matches-list-container {
+    width: 90vw;
+    align-self: flex-start;
+  }
+}

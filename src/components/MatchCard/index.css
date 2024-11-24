@@ -1,0 +1,82 @@
+.match-list-item {
+  list-style-type: none;
+  align-self: flex-start;
+}
+
+.match-card-container {
+  height: 45vh;
+  width: 32vh;
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.opponent-team-img {
+  height: 10vh;
+  width: 10vw;
+}
+
+.opponent-team-name {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: Bree Serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.match-result-details {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  text-align: center;
+}
+
+.result {
+  font-size: 28px;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  text-align: center;
+}
+
+.Won {
+  color: #18ed66;
+}
+
+.Lost {
+  color: #e31a1a;
+}
+
+@media (max-width: 767px) {
+  .match-card-container {
+    width: 25vh;
+    justify-content: flex-start;
+  }
+
+  .opponent-team-img {
+    height: 6vh;
+    width: 6vw;
+  }
+
+  .opponent-team-name {
+    font-size: 16px;
+  }
+
+  .match-result-details {
+    font-size: 12px;
+  }
+
+  .result {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .match-card-container {
+    height: 30vh;
+  }
+}
